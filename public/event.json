@@ -1,0 +1,12 @@
+[
+    {
+        "_id": 1,
+        "eventName": "Birthday Bash",
+        "name": "Sharif",
+        "time": "6:00pm",
+        "sDate": "18/10/2022",
+        "eDate": "19/10/2022",
+        "location": "Dhaka",
+        "img": "image.png"
+    }
+]

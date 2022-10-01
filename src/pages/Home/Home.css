@@ -1,0 +1,171 @@
+@media only screen and (min-width: 401px) and (max-width: 1400px) {
+    .container{
+        background-color: #DDDDDD;
+    }
+    .subContainer{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+    }
+    .landingPAge{
+        margin-top: 100px;
+    }
+    .landingPAge img {
+        height: 500px;
+        width: 400px;
+    }
+    .Imagine{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: #240D57;
+        }
+        #Snapchat{
+            background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        }
+        #contentPara{
+            font-family: Helvetica;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: center;
+            }
+            #buttonID{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 16px;
+                gap: 10px;
+                
+                /* position: absolute; */
+                width: 187px;
+                height: 50px;
+                left: calc(50% - 187px/2);
+                top: 616px;
+                
+                background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+                border-radius: 10px;
+                
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18px;
+                text-align: right;
+                
+                color: #FFFFFF;
+                }
+                
+                #buttonId{
+                    margin-top: 34px;
+                    margin-bottom: 13.67px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    padding-bottom: 20px;
+                }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .container{
+        position: relative;
+        background: #DDDDDD;
+        max-width: 100%;
+    }
+    /* .firstBox{
+        margin-top: 94px;
+        margin-left: 46px;
+        margin-right: 46px;
+    } */
+    
+    .Imagine{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #240D57;
+    }
+    
+    #Snapchat{
+        background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    
+    /* .content{
+        margin-top: 16px;
+        margin-right: 27px;
+        margin-left: 27px;
+    } */
+    
+    #contentPara{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+    
+    /* .landingPAge{
+        margin-top: 36px;
+        margin-right: 105px;
+        margin-left: 104.37px;
+    } */
+    .landingPAge img{
+        height:292px;
+        width:166px;
+    }
+    
+    #buttonID{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    
+    /* position: absolute; */
+    width: 187px;
+    height: 50px;
+    left: calc(50% - 187px/2);
+    top: 616px;
+    
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    }
+    
+    #buttonId{
+        margin-top: 34px;
+        margin-bottom: 13.67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        padding-bottom: 20px;
+    }
+}

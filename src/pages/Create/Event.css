@@ -1,0 +1,46 @@
+.BirthDayEvent{
+    margin-top: 184px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 199px;
+}
+
+#birthday{
+    font-family: Helvetica;
+font-size: 48px;
+font-weight: 700;
+/* line-height: 55px; */
+letter-spacing: 0px;
+text-align: left;
+color: #240D57;
+}
+
+#hosted{
+font-family: Helvetica;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0px;
+text-align: left;
+color: #828282;
+}
+
+.event{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+text-align: left;
+font-size: 18px;
+line-height: 21px;
+color: #240D57;
+}
+
+.eventTo{
+    text-align: left;
+    color: #4F4F4F;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
